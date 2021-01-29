@@ -1,0 +1,23 @@
+CREATE TABLE jun_2015 (
+	VendorID INT NOT NULL,
+	lpep_pickup_datetime VARCHAR(255) NOT NULL,
+	Lpep_dropoff_datetime VARCHAR(255) NOT NULL,
+	Store_and_fwd_flag VARCHAR(255) NOT NULL,
+	RateCodeID INT NOT NULL,
+	Pickup_longitude DOUBLE NOT NULL,
+	Pickup_latitude DOUBLE NOT NULL,
+	Dropoff_longitude DOUBLE NOT NULL,
+	Dropoff_latitude DOUBLE NOT NULL,
+	Passenger_count INT NOT NULL,
+	Trip_distance DOUBLE NOT NULL,
+	Fare_amount DOUBLE NOT NULL,
+	Extra DOUBLE NOT NULL,
+	MTA_tax DOUBLE NOT NULL,
+	Tip_amount DOUBLE NOT NULL,
+	Tolls_amount DOUBLE NOT NULL,
+	Ehail_fee VARCHAR(255) NOT NULL,
+	improvement_surcharge DOUBLE NOT NULL,
+	Total_amount DOUBLE NOT NULL,
+	Payment_type INT NOT NULL,
+	Trip_type VARCHAR(255) NOT NULL
+);
